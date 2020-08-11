@@ -1,0 +1,135 @@
+*{box-sizing:border-box;}
+html{
+  max-width: 1500px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Josefin Sans;
+}
+header{
+  font-family:Abril Fatface;
+  position:relative;
+      }
+.imghead{
+  width:100%;
+  max-height:600px;
+  object-fit:cover;
+ }
+h2{
+  position:absolute;
+  bottom:50%;
+  left:65%;
+  color:whitesmoke;
+  font-size:2em;
+ }
+h1{
+  position:absolute;
+  bottom:-18%;
+  left:78%;
+  color: whitesmoke;
+  font-size:5em;
+}
+h1 span,
+h2 span{
+  color: black;
+}
+
+main{
+  color:#696969;
+  display:flex;
+  flex-wrap:wrap;
+    }
+ul{
+  list-style-type: square;
+  font-size:22px;
+}
+h3{
+  color:white;
+  background:#696969;
+  font-size: 50px;
+  padding:60px;
+  font-family:Abril Fatface;
+  position:relative;
+  }
+h3::before {
+  content:open-quote;
+  font-size:100px; 
+  position:absolute;
+  top:0px;
+  left:2px;
+}
+h3::after{
+  content:close-quote;
+  quotes:none;
+  }
+h4{
+  text-transform: uppercase;
+  font-style:bold;
+  font-size:34px;
+  padding-top:60px;
+  }
+  
+h5{
+  font-style:bold;
+  font-size: 30px;
+  margin-bottom:3px;
+  }
+h6{
+  font-family:Josefin Sans Merriweather;
+  font-size:21px;
+  font-style:italic;
+  margin-top:5px;
+  margin-bottom:10px;
+ }
+p{font-size:22px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.navigation{
+  list-style-type: none;
+  margin:0;
+  background-color: black;
+  font-size:30px;
+  display: flex;
+  align-items:center;
+  }
+
+.naviitem a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  }
+.naviitem a:hover {
+  background-color: lightgreen;
+}
+.sekceL{
+width:50%;
+}
+.sekceP{
+width:40%;
+margin-left:5%;
+  }
+.zpet a{
+  background: grey;
+  border:none;
+  border-radius:50%;
+  height:60px;
+  width:60px;
+  text-align:center;
+  padding-top:20px;
+  color:white;
+  font-weight: bold;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  text-decoration: none;
+  }
+.zpet a:hover {
+  background-color: lightgreen;
+}
